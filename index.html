@@ -11,38 +11,22 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
+    <form>
 
 
-      <!-- Add a label for 'fullname'-->
-
-      <!-- Add a text input with the id and name attributes set to 'fullname' -->
-      <!-- Include the place holder text "Enter Name" and make this input required -->
-
-
-      <!-- Add a label for 'email'-->
-
-      <!-- Add a email input with the id and name attributes set to 'email' -->
-      <!-- Include the place holder text "Enter Email" and make this input required -->
-
-
-      <!-- Add a label for 'phone'-->
-
-      <!-- Add a telephone input with the id and name attributes set to 'phone' -->
-      <!-- Include the place holder text "Enter Telephone (optional)" -->
-
-
-      <!-- Add a label for 'message'-->
-
-      <!-- Add a textarea tag with the id and name attributes set to 'message' -->
-      <!-- Include the place holder text "Enter Message" -->
-
-
-      <!-- Add a checkbox input with the id set to 'checkbox' -->
-
-
-
-      <!-- Add an input with the type set to 'submit' -->
-
+     
+      <label for= "fullname">Enter your full name here</label>
+      <input required type="text" name= "fullname" placeholder="Enter Name" id="fullname">
+      <label for= "email">Enter your Email here</label>
+      <input required type="email" name= "email" placeholder="Enter Email" id="email">
+      <label for= "phone">Enter your phone number here</label>
+      <input type="tel" name= "phone" placeholder="Enter Telephone (optional)" id="phone">
+      <label for= "message">Anything else?</label>
+      <textarea type="textarea" name="message" id ="message" placeholder="Enter Message"></textarea>
+       <input type="checkbox" id="checkbox" name="check1" value="Burps">
+       <input type="submit" id="submit" value="submit">
+       
+    </form>
     
   </body>
 </html>
